@@ -1,0 +1,262 @@
+@font-face{
+    font-family: myfont;
+    src: url(fonts/PlusJakartaSans-VariableFont_wght.ttf);
+}
+
+@font-face{
+    font-family: myfontitalic;
+    src: url(fonts/PlusJakartaSans-Italic-VariableFont_wght.ttf);
+}
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo h3 {
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 8px;
+    font-family: sans-serif;
+}
+.navlinks{
+    margin-top: 1%;
+}
+
+.navlinks ul {
+    display: inline-flex;
+
+
+}
+
+
+.navlinks ul a {
+    margin-left: 10%;
+    text-decoration: none;
+
+}
+
+.navlinks ul a li {
+    list-style-type: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.button button {
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+  background-color: black;
+  color: white;
+    border: none;;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all ease-out 0.2s;
+
+}
+
+.button button:hover{
+   background-color: white;
+   border: 1px solid black;
+   color: black;
+}
+
+main{
+    margin-top: 11%;
+    display: flex;
+    justify-content: space-around;
+}
+
+    .nameis{
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #656D72;
+        font-weight: 400;
+        letter-spacing: 2px;
+    }
+
+    .name{
+        margin-top: 30px;
+        font-size: 45px;
+        font-family: myfont;
+        font-weight: 800;
+
+    }
+
+    .sname{
+        color: #7E74F1;
+    }
+
+    .nametext{
+        margin-top: 3%;
+        font-size: 15px;
+        line-height: 2;
+        font-family: myfont;
+    }
+
+    .socialicons{
+        margin-top: 30px;
+    }
+
+    .socialicons i{
+        font-size: 20px;
+        color: #232E35;
+        margin-right: 2%;
+        text-decoration: none;
+      
+    }
+
+    .page2{
+        margin-left: 5%;
+        margin-top: 7%;
+        margin-right: 5%;
+    }
+
+    .serviceis{
+        font-size: 23px;
+        font-family: myfont;
+        color: #656D72;
+        font-weight: 500;
+        letter-spacing: 2px;
+        text-align: center;
+
+    }
+
+    .specialty{
+        font-size: 35px;
+        font-family: myfont;
+        color: #000000;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-align: center;
+        margin-top: 8px;
+    }
+    .card{
+        width:300px;
+    
+        text-align: center;
+    }
+.card-container{
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-around;
+}
+    .cardp{
+       
+      font-size: 25px;
+      font-weight: 600;
+      font-family: myfont;
+      color: rgb(30, 29, 29);
+    }
+
+    .carda{
+        margin-top: 14px;
+        line-height: 25px;
+        font-family: myfont;
+        font-size: 15px;
+    }
+    
+
+    .page3{
+        margin-top: 20%;
+        margin-left: -6%;
+        margin-right: -6%;
+    }
+    
+.background{
+    margin-top: 2%;
+    background-color: #f2f2f5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+    form input{
+        border: none;
+        width: 620px;
+        height: 42px;
+       padding-left: 7px;
+     
+        margin-top: 2%;
+        border-radius: 10px;
+    }
+
+    form textarea{
+        margin-top: 2%;
+        width: 600px;
+        height: 189px;
+        border: none;
+        border-radius: 10px;
+        padding: 12px;
+    }
+
+    .submitb{
+        background: #7E74F1;
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
+        font-family: myfont;
+    }
+
+    .submitb:hover{
+
+        cursor: pointer;
+        background-color:  #5249b5;
+
+    }
+
+    .address{
+        display: flex;
+
+    }
+  
+    .address-info{
+    margin-left: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    }
+
+
+    .title{
+        font-family: myfont;
+        font-size: 17px;
+        font-weight: 700;
+        color: #353434;
+    }
+
+    .address2{
+        font-size: 14px;
+        font-weight: 400;
+        color: #353434;
+        font-family: myfont;
+        margin-top: 8px;
+
+    }
+    .contact-rightside{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
